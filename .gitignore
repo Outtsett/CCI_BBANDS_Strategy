@@ -361,3 +361,74 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# === Added by repo audit ===
+# =====================================================================
+# Generic .gitignore — base rules for all projects
+# Language-specific rules are appended automatically by the audit script
+# =====================================================================
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+*.iml
+.fleet/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.production.local
+.env.test.local
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+*.keystore
+*.jks
+secrets/
+credentials.json
+service-account*.json
+firebase-adminsdk*.json
+
+# Coverage / profiling
+coverage/
+*.lcov
+.nyc_output/
+
+# Misc
+tmp/
+temp/
+.cache/
+
+# Language-specific (C#)
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.cache
+.vs/
+TestResults/
+packages/
+*.nupkg
+*.snupkg
+*.dll
+*.pdb
+
